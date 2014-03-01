@@ -41,8 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CounterBuzz1.cs" />
+    <Compile Include="CounterBuzz2.cs" />
+    <Compile Include="CounterBuzz3.cs" />
+    <Compile Include="CounterBuzz4.cs" />
+    <Compile Include="CounterBuzz5.cs" />
+    <Compile Include="CounterFizz1.cs" />
+    <Compile Include="CounterFizz2.cs" />
+    <Compile Include="CounterFizz3.cs" />
+    <Compile Include="CounterStandard.cs" />
     <Compile Include="FizzBuzzSolver.cs" />
+    <Compile Include="IBuzzCounter.cs" />
     <Compile Include="IFizzBuzzSolver.cs" />
+    <Compile Include="ICounterItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

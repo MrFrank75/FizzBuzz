@@ -10,8 +10,17 @@ namespace FizzBuzz
     {
         public string Solve(int numberToPrint)
         {
-		// this is a new comment 
-            throw new NotImplementedException();
+            string result = string.Empty;
+            ICounterItem fizzCounter = new CounterFizz1(new CounterBuzz1(new CounterStandard()));
+
+            for (int i = 0; i < numberToPrint; i++)
+            {
+                result = string.Empty;
+                result += fizzCounter.GetResult();
+                fizzCounter = fizzCounter.GetNewItem();
+            }
+
+            return result;
         }
     }
 }
