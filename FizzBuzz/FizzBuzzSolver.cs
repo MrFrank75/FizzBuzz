@@ -13,7 +13,7 @@ namespace FizzBuzz
             string result = string.Empty;
             ICounterItem fizzCounter = new CounterFizz1(new CounterBuzz1(new CounterStandard()));
 
-            for (int i = 0; i < numberToPrint; i++)
+            for (int i = 1; i <= numberToPrint; i++)
             {
                 result = string.Empty;
                 result += fizzCounter.GetResult();

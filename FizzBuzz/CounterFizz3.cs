@@ -16,7 +16,7 @@ namespace FizzBuzz
 
         public string GetResult()
         {
-            return "Fizz" + counterBuzz.GetMessageForFizz();
+            return string.Format("Fizz{0}",counterBuzz.GetMessageForFizz());
         }
 
         public ICounterItem GetNewItem()

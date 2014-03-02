@@ -16,6 +16,7 @@ namespace FizzBuzz
         }
         public string GetResult()
         {
+            counterStandard.GetResult(); 
             return "Buzz";
         }
 
@@ -26,6 +27,7 @@ namespace FizzBuzz
 
         public string GetMessageForFizz()
         {
+            counterStandard.GetResult(); 
             return "Buzz";
         }
     }

@@ -26,6 +26,7 @@ namespace FizzBuzz
 
         public string GetMessageForFizz()
         {
+            counterStandard.GetResult(); 
             return string.Empty;
         }
     }
