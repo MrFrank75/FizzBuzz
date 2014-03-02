@@ -41,8 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BuzzCounter1.cs" />
     <Compile Include="FizzBuzzSolver.cs" />
+    <Compile Include="FizzCounter1.cs" />
+    <Compile Include="FizzCounter2.cs" />
+    <Compile Include="FizzCounter3.cs" />
+    <Compile Include="IBuzzCounter.cs" />
     <Compile Include="IFizzBuzzSolver.cs" />
+    <Compile Include="IFizzCounter.cs" />
+    <Compile Include="NumberCounter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
